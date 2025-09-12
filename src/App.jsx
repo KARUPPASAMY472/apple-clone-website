@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 import './App.css'
 import './index.css'
@@ -8,9 +9,15 @@ import Macapple from './components/applecollection'
 import About from './components/about'
 import Ultrawatch from './components/watchultra'
 import Applepro from './components/applepro'
+
+
 import Airimages from './assets/airimages.png'
 import Airimages1 from './assets/airimages1.png'
 import Airimages2 from './assets/airimages2.png'
+
+
+import iphone161 from './assets/iphone16.png'
+
 function App() {
 
   return (
@@ -49,6 +56,7 @@ function App() {
         buttont1="Learn more"
         buttont2="View pricing"
       />
+
       <Macapple />
       <Ultrawatch />
       <About />
