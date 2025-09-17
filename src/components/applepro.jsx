@@ -15,7 +15,7 @@ function Applepro({headt,headtcs,parat1,parat2,buttont1,buttont2,images})
                     <button className='border border-black px-8 py-4 rounded-full hover:bg-black hover:text-white'>{buttont2}</button>
                     </div>
                 </div>
-                <div className='w-[75%] md:h-[800px]'>
+                <div className='w-[75%] lg:h-[800px]'>
                 <img src={images} alt="" className=' my-6 w-full h-full ' />
                 </div>
             </div>

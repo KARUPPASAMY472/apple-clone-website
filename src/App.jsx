@@ -9,14 +9,22 @@ import Macapple from './components/applecollection'
 import About from './components/about'
 import Ultrawatch from './components/watchultra'
 import Applepro from './components/applepro'
-
+import Postcard from './components/postcard'
 
 import Airimages from './assets/airimages.png'
 import Airimages1 from './assets/airimages1.png'
 import Airimages2 from './assets/airimages2.png'
 
 
-import iphone161 from './assets/iphone16.png'
+
+import iphone16 from './assets/iphone16.png'
+import logapple from './assets/applelogo.png'
+import maclap from './assets/maclap.jpg'
+import ipad from './assets/ipadair.png'
+import airpot from './assets/airpoispro.png'
+import applewatch from './assets/applewatch.png'
+import macbookair from './assets//macbook.png'
+
 
 function App() {
 
@@ -57,10 +65,83 @@ function App() {
         buttont2="View pricing"
       />
 
-      <Macapple />
+
+      <div className=" md:grid md:grid-cols-2 md:p-4 md:gap-3">
+      <Postcard
+        head1="iPhone 17"
+        para1="Magichromatic"
+        para2="Available from 19 Sep"
+        but1="Learn more"
+        but2="Buy"
+        imgs={iphone16}
+        imgsty="w-60"
+        bgc="bg-gradient-to-tr from-white to-blue-50"
+        textc="bg-gradient-to-r from-blue-500 to-blue-300 bg-clip-text text-transparent"
+      />
+      <Postcard
+        head1="Mac"
+        para1="Unbelivably thin.Incredibly powerful."
+        but1="Learn more"
+        but2="Buy"
+        parac="text-white"
+        imgs={maclap}
+        imgsty="w-96"
+        bgc=" bg-black "
+        textc="text-white"
+      />
+
+      <Postcard
+        head1="iPadair"
+        para1="Now supercharged by the M3 chip."
+        but1="Learn more"
+        but2="Buy"
+        parac="text-black"
+        imgs={ipad}
+        bgc=" bg-gradient-to-bl from-blue-200 via-white to-white"
+        textc="bg-gradient-to-r from-black via-black to-blue-500 bg-clip-text text-transparent"
+      />
+
+      <Postcard
+        headlogo={logapple}
+        head1="WATCH"
+        headpara="SERIES 10"
+        para1="Thinstant classic."
+        but1="Learn more"
+        but2="Buy"
+        parac="text-black"
+        imgs={applewatch}
+
+        bgc=" bg-gradient-to-b from-blue-50 to-white "
+      />
+      
+       <Postcard
+        head1="MacBook Air"
+        para1="Thinstant classic."
+        para2="Sky high performance with M4."
+        but1="Learn more"
+        but2="Buy"
+        parac="text-black"
+        imgs={macbookair}
+        bgc=" bg-gradient-to-b from-gray-300 via-white to-white "
+      />
+
+
+      <Postcard
+        headlogo={logapple}
+        head1="Trade In"
+        para1="The world's best in-ear Active Noise Cancellation."
+        para2="Available from 19 Sep."
+        but1="Get your estimate"
+        parac="text-black"
+          imgs={airpot}
+          sty="hidden"
+        bgc=" bg-gradient-to-b from-slate-300 via-white to-white "
+      />
+      </div>
+
+
       <Ultrawatch />
       <About />
-      
       
     </>
   )
