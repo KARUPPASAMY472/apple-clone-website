@@ -6,7 +6,7 @@ function Postcard({sty,imgs,imgsty,headpara,headlogo,head1,para1,para2,parac,but
             <div className={` ${bgc} min-w-full h-fit md:w-[360px] md:h-[500px] text-center py-10   flex flex-col justify-center items-center`}>
                 <div className="text-center">
                     <div className='flex justify-center items-center'>
-                        <img src={headlogo} alt="" className='w-10' />
+                        <img src={headlogo} alt="" className={`w-10 ${sty}`} />
                         <div>
                             <h1 className={`text-3xl font-bold ${textc}`}>{ head1 }</h1>
                             <p className='text-sm'>{ headpara }</p>

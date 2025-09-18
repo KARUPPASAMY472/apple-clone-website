@@ -46,7 +46,7 @@ function About()
                         <div  class="flex flex-col gap-4">
                         <div>
                             <h1 class="pb-2 text-white">Shop and Learn</h1>
-                            <ul class="flex flex-col  gap-2">
+                            <ul class="flex flex-col text-gray-400  gap-2">
                                 <li>Store</li>
                                 <li>Mac</li> 
                                 <li>iPad</li> 
@@ -62,7 +62,7 @@ function About()
                           <div>  
                             
                         <h1 class="pb-2 text-white">Account</h1>
-                        <p>Wallet</p> 
+                        <p className=" text-gray-400">Wallet</p> 
                         </div>
                             
                         </div></div>
@@ -70,17 +70,17 @@ function About()
                         <div  class="flex flex-col gap-4">
                             <div>
                         <h1 class="pb-2 text-white">Account</h1>
-                            <ul  class="flex flex-col  gap-2">
-                                <li>Manage Your Apple Account</li>
-                                <li>Apple Store Account</li> 
-                                <li>iCloud.com</li> 
-                                <li>iPhone</li>
-                        </ul>
+                            <div  class="flex flex-col text-gray-400  gap-2">
+                                <p>Manage Your Apple Account</p>
+                                <p>Apple Store Account</p> 
+                                <p>iCloud.com</p> 
+                                <p>iPhone</p>
+                        </div>
                         </div>
                         
                         <div>
                             <h1 class="pb-2 text-white">Entertainment</h1>
-                            <div  class="flex flex-col  gap-2">
+                            <div  class="flex flex-col text-gray-400  gap-2">
                             <p>Apple One</p>
                             <p>Apple TV+</p>
                             <p>Apple Music</p>
@@ -92,8 +92,8 @@ function About()
                         </div>
                     
                     <div  class="flex flex-col  gap-4">
-                        <h1 class="pb-2 text-white">Apple Store</h1>
-                        <div class="flex flex-col  gap-2">
+                        <h1 class=" text-white">Apple Store</h1>
+                        <div class="flex flex-col text-gray-400  gap-2">
                             <p>Find a Store</p>
                             <p>Genius Bar</p>
                             <p>Today at Apple</p>
@@ -108,7 +108,7 @@ function About()
                 <div class="flex flex-col  gap-4">
                     <div>
                     <h1 class="pb-2 text-white">For Business</h1>
-                    <div class="flex flex-col  gap-2">
+                    <div class="flex flex-col text-gray-400  gap-2">
                     <p>Apple and Business</p>
                     <p>Shop and Business</p>
                     </div>
@@ -116,7 +116,7 @@ function About()
 
                     <div>
                         <h1 class="pb-2 text-white">For Education</h1>
-                        <div  class="flex flex-col  gap-2">
+                        <div  class="flex flex-col text-gray-400  gap-2">
                         <p>Apple and Education</p>
                         <p>Shop for Education</p>
                         <p>Shop for University</p>
@@ -124,11 +124,11 @@ function About()
                     </div>
                     <div>
                         <h1 class="pb-2 text-white">For Healthcare</h1>
-                        <p>Apple and Healthcare</p>
+                        <p className=" text-gray-400">Apple and Healthcare</p>
                     </div>
                     <div>
                         <h1 class="pb-2 text-white">For Goverment</h1>
-                        <p>Apple and Goverment</p>
+                        <p className=" text-gray-400">Apple and Goverment</p>
                     </div>
  
                 </div>
@@ -136,7 +136,7 @@ function About()
                 <div class="flex flex-col  gap-4">
                     <div>
                         <h1 class="pb-2 text-white">Apple Values</h1>
-                        <div class="flex flex-col  gap-2" >
+                        <div class="flex flex-col text-gray-400  gap-2" >
                         <p>Accessibility</p>
                         <p>Education</p>
                         <p>Enviroment</p>
@@ -146,7 +146,7 @@ function About()
                         </div>
                     <div>
                         <h1 class="text-white pb-2">About Apple</h1>
-                        <div class="flex flex-col  gap-2">
+                        <div class="flex flex-col text-gray-400  gap-2">
                         <p>Newsroom</p>
                         <p>Apple Leadership</p>
                         <p>Career Opertunities</p>

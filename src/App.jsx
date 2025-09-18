@@ -77,6 +77,7 @@ function App() {
         imgsty="w-60"
         bgc="bg-gradient-to-tr from-white to-blue-50"
         textc="bg-gradient-to-r from-blue-500 to-blue-300 bg-clip-text text-transparent"
+        sty="hidden"
       />
       <Postcard
         head1="Mac"
@@ -88,6 +89,7 @@ function App() {
         imgsty="w-96"
         bgc=" bg-black "
         textc="text-white"
+        sty="hidden"
       />
 
       <Postcard
@@ -97,6 +99,7 @@ function App() {
         but2="Buy"
         parac="text-black"
         imgs={ipad}
+        sty="hidden"
         bgc=" bg-gradient-to-bl from-blue-200 via-white to-white"
         textc="bg-gradient-to-r from-black via-black to-blue-500 bg-clip-text text-transparent"
       />
@@ -110,7 +113,6 @@ function App() {
         but2="Buy"
         parac="text-black"
         imgs={applewatch}
-
         bgc=" bg-gradient-to-b from-blue-50 to-white "
       />
       
@@ -121,6 +123,7 @@ function App() {
         but1="Learn more"
         but2="Buy"
         parac="text-black"
+          sty="hidden"
         imgs={macbookair}
         bgc=" bg-gradient-to-b from-gray-300 via-white to-white "
       />
@@ -134,7 +137,6 @@ function App() {
         but1="Get your estimate"
         parac="text-black"
           imgs={airpot}
-          sty="hidden"
         bgc=" bg-gradient-to-b from-slate-300 via-white to-white "
       />
       </div>
